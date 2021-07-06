@@ -1,27 +1,29 @@
 package com.qa.classmembers;
 
 public class Runner {
-
-	public static String fName;
-	public static int age;
-	public static float money;
-
-	public static void main(String[] args) {
-		printName();
-		fName = "Vinesh";
-		age = 10;
-		money = 2.0f;
-		System.out.println(fName);// null
-		System.out.println(age);// 0
-		System.out.println(money);// 0.0
-		printName();
-		System.out.println();
-	}
-
-	public static void printName() {
-		System.out.println(fName);
-		String someName = "Jim";
-		System.out.println(someName);
-	}
+	
+public static void main(String[] args) {
+	int Phys       = 148;
+	int Chem       = 100;
+	int Bio        = 130;
+	int Total      = Phys + Chem + Bio;
+	int Percentage = Total * 100/450;
+	String message1= "Physics mark:";
+	String message2= "Chemistry mark:";
+	String message3= "Biology mark:";
+	String message4= "Total:";
+	String message5= "Percentage:";
+	
+		System.out.print(message1);System.out.println(Phys);
+		System.out.print(message2);System.out.println(Chem);
+		System.out.print(message3);System.out.println(Bio);
+		System.out.print(message4);System.out.println(Total);
+		System.out.print(message5);System.out.println(Percentage);
+	
+	
+			
+	
+	
+}
 
 }
