@@ -9,6 +9,7 @@ public class Runner {
 		Mammals ed = new Human("Ed", "Yellow", 190.00, true, false, false);
 		Animal rich = new Human("Rich", "Yellow", 190.00, true, false, false);
 
+<<<<<<< Updated upstream
 		System.out.println(vin instanceof Mammals);
 		System.out.println(vin instanceof Animal);
 
@@ -39,4 +40,12 @@ public class Runner {
 		System.out.println(austinPaws.whatsYourName("Austin PAWSSSSSSSSS"));
 
 	}
+=======
+		mrE.sleep();
+		mrT.eating();
+		mrE.bedTime();
+
+	}
+	
+>>>>>>> Stashed changes
 }

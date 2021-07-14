@@ -26,13 +26,13 @@ public class Runner {
 	// methods - outside of the main method
 	// double - is the return type that we want
 	// addtwo - THE NAME HOW TO CALL IT
-	// (they are the arugments )
+	// (they are the arguments )
 	// when i call addTwo (the first number, the second number);
 	public double addTwo(double number1, double number2) {
 		return number1 + number2;
 	}
 
-//	<visibility> <static> <return type> <Method name>(parameters/ Aruments){ 
+//	<visibility> <static> <return type> <Method name>(parameters/ Arguments){ 
 //	
 //		body of the method AKA THE LOGIC 
 //	}

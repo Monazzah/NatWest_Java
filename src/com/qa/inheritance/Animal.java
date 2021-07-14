@@ -71,5 +71,8 @@ public abstract class Animal {
 
 	// G
 	// S
-
+	public void bedTime() {
+	System.out.println("bedtime");	
+	}
+	
 }
